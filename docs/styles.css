@@ -18,8 +18,10 @@ h1 {
 
 .subheadings {
     display: flex;
+    flex-direction: column;
+    height: 100vh; /* Set the height to 100% of the viewport height */
     justify-content: space-around;
-    flex-wrap: wrap;
+    align-items: center;
     padding: 20px;
 }
 
@@ -42,9 +44,8 @@ p {
     background-color: #ffffff; 
     color: #2c3e50; 
     padding: 10px; 
-  }
-  
-  h2, h3 {
+}
+
+h2, h3 {
     color: #2c3e50; 
- 
-  }
+}
