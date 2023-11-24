@@ -1,14 +1,20 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #db8282;
-    margin: 0;
+    margin: 5px; /* Small margin */
     padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
 
 header {
     background-color: #ff3333;
     text-align: center;
     padding: 20px;
+    border: 5px solid #333; /* Thick border */
+    border-radius: 10px;
 }
 
 h1 {
@@ -29,10 +35,11 @@ h1 {
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 8px; /* Further reduced padding */
+    padding: 20px; /* Increased padding */
     width: 45%;
-    margin: 4px; /* Further reduced margin */
-    border-radius: 5px;
+    margin: 5px; /* Very small margin */
+    border: 5px solid white; /* Thick border */
+    border-radius: 10px;
 }
 
 a {
@@ -43,9 +50,15 @@ a {
 p {
     background-color: #ffffff;
     color: #2c3e50;
-    padding: 10px;
+    padding: 20px; /* Increased padding */
+    margin: 5px; /* Very small margin */
+    border: 5px solid #333; /* Thick border */
+    border-radius: 10px;
 }
 
 h2, h3 {
     color: #2c3e50;
+    margin: 5px; /* Very small margin */
+    border-bottom: 5px solid #333; /* Thick border */
+    padding-bottom: 5px; /* Padding for space between heading and content */
 }
