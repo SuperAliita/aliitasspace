@@ -19,7 +19,7 @@ h1 {
 .subheadings {
     display: flex;
     flex-direction: column;
-    height: 100vh; /* Set the height to 100% of the viewport height */
+    height: 100vh;
     justify-content: space-around;
     align-items: center;
     padding: 20px;
@@ -29,9 +29,9 @@ h1 {
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: 8px; /* Further reduced padding */
     width: 45%;
-    margin: 10px;
+    margin: 4px; /* Further reduced margin */
     border-radius: 5px;
 }
 
@@ -41,11 +41,11 @@ a {
 }
 
 p {
-    background-color: #ffffff; 
-    color: #2c3e50; 
-    padding: 10px; 
+    background-color: #ffffff;
+    color: #2c3e50;
+    padding: 10px;
 }
 
 h2, h3 {
-    color: #2c3e50; 
+    color: #2c3e50;
 }
