@@ -12,11 +12,11 @@ body {
 header {
     background-color: #ff3333;
     text-align: center;
-    padding: 5%; /* Adjusted padding as a percentage */
+    padding: 5%;
     border: 5px solid #333;
     border-radius: 10px;
-    width: 90%; /* Adjusted width as a percentage */
-    margin-bottom: 5%; /* Adjusted margin as a percentage */
+    width: 90%;
+    margin-bottom: 5%;
 }
 
 h1 {
@@ -27,19 +27,19 @@ h1 {
 .subheadings {
     display: flex;
     flex-direction: column;
-    height: 100vh;
-    justify-content: space-around;
+    height: auto; /* Adjusted height to fit content */
+    justify-content: center;
     align-items: center;
-    padding: 5%; /* Adjusted padding as a percentage */
+    padding: 5%;
 }
 
 .subheading {
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 5%; /* Adjusted padding as a percentage */
-    width: 90%; /* Adjusted width as a percentage */
-    margin: 2%; /* Adjusted margin as a percentage */
+    padding: 5%;
+    width: 90%;
+    margin: 2%;
     border: 5px solid white;
     border-radius: 10px;
 }
@@ -52,15 +52,27 @@ a {
 p {
     background-color: #ffffff;
     color: #2c3e50;
-    padding: 5%; /* Adjusted padding as a percentage */
-    margin: 2%; /* Adjusted margin as a percentage */
+    padding: 5%;
+    margin: 2%;
     border: 5px solid #333;
     border-radius: 10px;
 }
 
 h2, h3 {
     color: #2c3e50;
-    margin: 2%; /* Adjusted margin as a percentage */
+    margin: 2%;
     border-bottom: 5px solid #333;
-    padding-bottom: 2%; /* Adjusted padding as a percentage */
+    padding-bottom: 2%;
+}
+
+/* Responsive styles for mobile devices */
+@media only screen and (max-width: 600px) {
+    .subheadings {
+        padding: 2%; /* Adjusted padding for mobile */
+    }
+
+    .subheading {
+        width: 100%; /* Full width for mobile */
+        margin: 1%; /* Adjusted margin for mobile */
+    }
 }
