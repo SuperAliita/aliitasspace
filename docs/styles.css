@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #db8282;
-    margin: 5px; /* Small margin */
+    margin: 0;
     padding: 0;
     display: flex;
     align-items: center;
@@ -12,9 +12,11 @@ body {
 header {
     background-color: #ff3333;
     text-align: center;
-    padding: 20px;
-    border: 5px solid #333; /* Thick border */
+    padding: 5%; /* Adjusted padding as a percentage */
+    border: 5px solid #333;
     border-radius: 10px;
+    width: 90%; /* Adjusted width as a percentage */
+    margin-bottom: 5%; /* Adjusted margin as a percentage */
 }
 
 h1 {
@@ -28,17 +30,17 @@ h1 {
     height: 100vh;
     justify-content: space-around;
     align-items: center;
-    padding: 20px;
+    padding: 5%; /* Adjusted padding as a percentage */
 }
 
 .subheading {
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 20px; /* Increased padding */
-    width: 45%;
-    margin: 5px; /* Very small margin */
-    border: 5px solid white; /* Thick border */
+    padding: 5%; /* Adjusted padding as a percentage */
+    width: 90%; /* Adjusted width as a percentage */
+    margin: 2%; /* Adjusted margin as a percentage */
+    border: 5px solid white;
     border-radius: 10px;
 }
 
@@ -50,15 +52,15 @@ a {
 p {
     background-color: #ffffff;
     color: #2c3e50;
-    padding: 20px; /* Increased padding */
-    margin: 5px; /* Very small margin */
-    border: 5px solid #333; /* Thick border */
+    padding: 5%; /* Adjusted padding as a percentage */
+    margin: 2%; /* Adjusted margin as a percentage */
+    border: 5px solid #333;
     border-radius: 10px;
 }
 
 h2, h3 {
     color: #2c3e50;
-    margin: 5px; /* Very small margin */
-    border-bottom: 5px solid #333; /* Thick border */
-    padding-bottom: 5px; /* Padding for space between heading and content */
+    margin: 2%; /* Adjusted margin as a percentage */
+    border-bottom: 5px solid #333;
+    padding-bottom: 2%; /* Adjusted padding as a percentage */
 }
